@@ -299,6 +299,7 @@ img {
 
 .popularContent p {
     color: #767268;
+    font-size: 1rem;
 
 }
 
@@ -390,8 +391,8 @@ img {
     cursor: pointer;
     transition: all .1s ease-in-out;
 }
-.rewardContainer button:hover
-{
+
+.rewardContainer button:hover {
     transform: scale(1.1);
     background-color: rgb(68, 170, 233);
     box-shadow: 0px 0px 20px 1px rgb(0, 157, 255);
@@ -430,39 +431,39 @@ img {
     flex-grow: 2;
     margin-right: 3rem;
 }
-.col1 p
-{
+
+.col1 p {
     margin-right: 3rem;
     color: #767268;
     cursor: pointer;
 
 }
-.col1 p:hover
-{
+
+.col1 p:hover {
     color: var(--primary-color);
 }
-.col2 p
-{
+
+.col2 p {
     color: #767268;
     cursor: pointer;
-   
-}
-.col2 p:hover
-{
-   color: var(--primary-color);
 
 }
 
-.col3 p
-{
+.col2 p:hover {
+    color: var(--primary-color);
+
+}
+
+.col3 p {
     color: #767268;
     cursor: pointer;
 }
-.col3 p:hover
-{
-   color: var(--primary-color);
-    
+
+.col3 p:hover {
+    color: var(--primary-color);
+
 }
+
 .footerCol p {
     color: #767268;
 
@@ -482,28 +483,28 @@ img {
 
 
 }
-.footerBar
-{
+
+.footerBar {
     max-width: var(--max-width);
     margin: auto;
     height: 3rem;
-    
+
     display: flex;
     justify-content: flex-end;
     align-items: center;
     flex-wrap: wrap;
 }
-.line
-{
+
+.line {
     height: 2px;
     width: 25%;
     background-color: var(--text-light);
     margin-right: 1rem;
     color: var(--text-light);
-   
+
 }
-.copyright
-{
+
+.copyright {
     padding: 0rem 0rem 1rem 0rem;
     max-width: auto;
     height: auto;
