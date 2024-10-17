@@ -504,9 +504,16 @@ img {
 
 }
 
-.copyright {
+/* .copyright {
     padding: 0rem 0rem 1rem 0rem;
     max-width: auto;
     height: auto;
     color: var(--text-light);
+} */
+
+.myName {
+    color: var(--primary-color);
+
+    font-weight: 600;
+    font-size: 1.2rem;
 }
